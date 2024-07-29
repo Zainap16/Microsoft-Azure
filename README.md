@@ -47,3 +47,34 @@ The database doesn't need to be configured for high-performance workloads and re
 * Example scenarios Here you'll find several reference architectures, or common cloud-based solutions that you can use as a starting point.
 * Saved estimates Here you'll find your previously saved estimates.
 * FAQs Here you'll discover answers to frequently asked questions about the Pricing calculator.
+
+# What is Cost Management?
+* Cost Management provides the ability to quickly check Azure resource costs, create alerts based on resource spend, and create budgets that can be used to automate management of resources. Cost analysis is a subset of Cost Management that provides a quick visual for your Azure costs.
+
+# Cost alerts
+* Budget alerts - Budget alerts notify you when spending, based on usage or cost, reaches or exceeds the amount defined in the alert condition of the budget.
+* Credit alerts - notify you when your Azure credit monetary commitments are consumed.
+* Department spending quota alerts - notify you when department spending reaches a fixed threshold of the quota.
+* Budgets - A budget is where you set a spending limit for Azure. You can set budgets based on a subscription, resource group, service type, or other criteria.
+
+  # Describe the purpose of tags -Tags provide extra information, or metadata, about your resources. 
+* Resource management Tags enable you to locate and act on resources that are associated with specific workloads, environments, business units, and owners.
+* Cost management and optimization Tags enable you to group resources so that you can report on costs, allocate internal cost centers, track budgets, and forecast estimated cost.
+* Operations management Tags enable you to group resources according to how critical their availability is to your business. This grouping helps you formulate service-level agreements (SLAs). An SLA is an uptime or performance guarantee between you and your users.
+* Security Tags enable you to classify data by its security level, such as public or confidential.
+* Governance and regulatory compliance Tags enable you to identify resources that align with governance or regulatory compliance requirements, such as ISO 27001. Tags can also be part of your standards enforcement efforts. For example, you might require that all resources be tagged with an owner or department name.
+* Workload optimization and automation Tags can help you visualize all of the resources that participate in complex deployments. For example, you might tag a resource with its associated workload or application name and use software such as Azure DevOps to perform automated tasks on those resources.
+
+# How do I manage resource tags?
+* You can add, modify, or delete resource tags through Windows PowerShell, the Azure CLI, Azure Resource Manager templates, the REST API, or the Azure portal.
+
+# Describe the purpose of Microsoft Purview
+![purview-solution-areas-ceb1bedf](https://github.com/user-attachments/assets/f8b23c80-2d4b-44d9-a9cb-f70e022d7984)
+
+# Types of Resource Locks
+
+**A resource lock prevents resources from being accidentally deleted or changed.**
+
+* **Delete** means authorized users can still read and modify a resource, but they can't delete the resource.
+* **ReadOnly** means authorized users can read a resource, but they can't delete or update the resource. Applying this lock is similar to restricting all authorized users to the permissions granted by the Reader role.
+
