@@ -14,3 +14,12 @@ CapEx is typically a one-time, up-front expenditure to purchase or secure tangib
  OpEx is spending money on services or products over time. Renting a convention center, leasing a company vehicle, or signing up for cloud services are all examples of OpEx.
 
 * Cloud computing falls under OpEx
+
+# Scalability
+ Scalability refers to the ability to adjust resources to meet demand.
+ 
+# Vertical scaling
+you could vertically scale up to add more CPUs or RAM to the virtual machine
+
+# Horizontal scaling
+ if you suddenly experienced a steep jump in demand, your deployed resources could be scaled out (either automatically or manually). 
