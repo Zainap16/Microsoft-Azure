@@ -23,3 +23,27 @@ you could vertically scale up to add more CPUs or RAM to the virtual machine
 
 # Horizontal scaling
  if you suddenly experienced a steep jump in demand, your deployed resources could be scaled out (either automatically or manually). 
+
+# Compare the Pricing and Total Cost of Ownership calculators
+
+* TCO calculator -  designed to help you compare the costs for running an on-premises infrastructure compared to an Azure Cloud infrastructure
+
+To migrate to Azure, you might:
+
+Use Azure Virtual Machines instances, similar to the virtual machines used in your datacenter.
+Use Azure Application Gateway for load balancing.
+Use Azure SQL Database to hold inventory and pricing information.
+
+In practice, you would define your requirements in greater detail. But here are some basic facts and requirements to get you started:
+
+The application is used internally. It's not accessible to customers.
+This application doesn't require a massive amount of computing power.
+The virtual machines and the database run all the time (730 hours per month).
+The network processes about 1 TB of data per month.
+The database doesn't need to be configured for high-performance workloads and requires no more than 32 GB of storage.
+
+# Explore the Pricing Calculator
+* Products This is where you choose the Azure services that you want to include in your estimate. You'll likely spend most of your time here.
+* Example scenarios Here you'll find several reference architectures, or common cloud-based solutions that you can use as a starting point.
+* Saved estimates Here you'll find your previously saved estimates.
+* FAQs Here you'll discover answers to frequently asked questions about the Pricing calculator.
