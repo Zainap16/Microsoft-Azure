@@ -114,3 +114,56 @@ Currently, Azure Arc allows you to manage the following resource types hosted ou
 
 ![image](https://github.com/user-attachments/assets/f3808120-0164-4def-8d6b-bb1b52eeb3ba)
 
+
+# Describe the purpose of Azure Advisor
+Azure Advisor evaluates your Azure resources and makes recommendations to help improve reliability, security, and performance, achieve operational excellence, and reduce costs. Azure Advisor is designed to help you save time on cloud optimization. The recommendation service includes suggested actions you can take right away, postpone, or dismiss.
+
+# Describe Azure Service Health
+. Azure Service Health helps you keep track of Azure resource, both your specifically deployed resources and the overall status of Azure. Azure service health does this by combining three different Azure services:
+
+* Azure Status is a broad picture of the status of Azure globally. Azure status informs you of service outages in Azure on the Azure Status page. The page is a global view of the health of all Azure services across all Azure regions. It’s a good reference for incidents with widespread impact.
+* Service Health provides a narrower view of Azure services and regions. It focuses on the Azure services and regions you're using. This is the best place to look for service impacting communications about outages, planned maintenance activities, and other health advisories because the authenticated Service Health experience knows which services and resources you currently use. You can even set up Service Health alerts to notify you when service issues, planned maintenance, or other changes may affect the Azure services and regions you use.
+* Resource Health is a tailored view of your actual Azure resources. It provides information about the health of your individual cloud resources, such as a specific virtual machine instance. Using Azure Monitor, you can also configure alerts to notify you of availability changes to your cloud resources.
+
+# Describe Azure Monitor
+Azure Monitor can monitor Azure resources, your on-premises resources, and even multi-cloud resources like virtual machines hosted with a different cloud provider.
+
+![azure-monitor-overview-614cd2fd](https://github.com/user-attachments/assets/67abc99e-e383-4b6f-be1f-a048f5723ed0)
+
+![image](https://github.com/user-attachments/assets/ec90ac43-00bb-440c-9888-bec662d9bc0e)
+
+![image](https://github.com/user-attachments/assets/57eba540-5b28-4905-ba2a-2f6e3be89a0a)
+
+![account-scope-levels-9ceb3abd](https://github.com/user-attachments/assets/cbdbbd2a-039f-4362-9a00-c9aa4625be0f)
+A region is a geographical area on the planet that contains at least one, but potentially multiple datacenters that are nearby and networked together with a low-latency network
+
+![availability-zones-c22f95a3](https://github.com/user-attachments/assets/a40a1ade-b733-492b-9dd8-e27f7da1a6ac)
+Availability zones are physically separate datacenters within an Azure region. Each availability zone is made up of one or more datacenters equipped with independent power, cooling, and networking.
+
+![region-pairs-7c495a33](https://github.com/user-attachments/assets/a69e6879-31d4-44ae-a1d5-cd558de1cee7)
+![subscriptions-d415577b](https://github.com/user-attachments/assets/b3f12d88-6fb7-4543-aa32-ea2a9a3a5c51)
+![management-groups-subscriptions-dfd5a108](https://github.com/user-attachments/assets/8b197c8a-611a-47ec-a83c-da7ee756d0b5)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
