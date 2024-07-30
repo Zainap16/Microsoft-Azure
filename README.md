@@ -75,6 +75,56 @@ The database doesn't need to be configured for high-performance workloads and re
 
 **A resource lock prevents resources from being accidentally deleted or changed.**
 
+# Azure Cloud Shell
+
+Azure Cloud Shell is a browser-based shell tool that allows you to create, configure, and manage Azure resources using a shell. Azure Cloud Shell support both Azure PowerShell and the Azure Command Line Interface (CLI), which is a Bash shell.
+
+# What is Azure PowerShell?
+Azure PowerShell is a shell with which developers, can run commands called command-lets (cmdlets). These commands call the Azure REST API to perform management tasks in Azure.
+
+# Describe the purpose of Azure Arc
+
+In utilizing Azure Resource Manager (ARM), Arc lets you extend your Azure compliance and monitoring to your hybrid and multi-cloud configurations. Azure Arc simplifies governance and management by delivering a consistent multi-cloud and on-premises management platform.
+
+Azure Arc provides a centralized, unified way to:
+
+Manage your entire environment together by projecting your existing non-Azure resources into ARM.
+Manage multi-cloud and hybrid virtual machines, Kubernetes clusters, and databases as if they are running in Azure.
+Use familiar Azure services and management capabilities, regardless of where they live.
+Continue using traditional ITOps while introducing DevOps practices to support new cloud and native patterns in your environment.
+Configure custom locations as an abstraction layer on top of Azure Arc-enabled Kubernetes clusters and cluster extensions.
+
+# What can Azure Arc do outside of Azure?
+Currently, Azure Arc allows you to manage the following resource types hosted outside of Azure:
+
+* Servers
+* Kubernetes clusters
+* Azure data services
+* SQL Server
+* Virtual machines (preview)
+**
+Azure Resource Manager (ARM) is the deployment and management service for Azure. It provides a management layer that enables you to create, update, and delete resources in your Azure account. Anytime you do anything with your Azure resources, ARM is involved.**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 * **Delete** means authorized users can still read and modify a resource, but they can't delete the resource.
 * **ReadOnly** means authorized users can read a resource, but they can't delete or update the resource. Applying this lock is similar to restricting all authorized users to the permissions granted by the Reader role.
 
