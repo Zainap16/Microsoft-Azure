@@ -1,4 +1,7 @@
 # Microsoft-Azure
+* **Delete** means authorized users can still read and modify a resource, but they can't delete the resource.
+* **ReadOnly** means authorized users can read a resource, but they can't delete or update the resource. Applying this lock is similar to restricting all authorized users to the permissions granted by the Reader role.
+
 # Microsoft Azure Fundamentals: Describe cloud concepts
 ![shared-responsibility-b3829bfe](https://github.com/user-attachments/assets/e7f44629-09f5-4671-aa3e-557d4b7aed19)
 
@@ -102,29 +105,7 @@ Currently, Azure Arc allows you to manage the following resource types hosted ou
 * Azure data services
 * SQL Server
 * Virtual machines (preview)
-**
-Azure Resource Manager (ARM) is the deployment and management service for Azure. It provides a management layer that enables you to create, update, and delete resources in your Azure account. Anytime you do anything with your Azure resources, ARM is involved.**
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* **Delete** means authorized users can still read and modify a resource, but they can't delete the resource.
-* **ReadOnly** means authorized users can read a resource, but they can't delete or update the resource. Applying this lock is similar to restricting all authorized users to the permissions granted by the Reader role.
-
+**Azure Resource Manager (ARM) is the deployment and management service for Azure. It provides a management layer that enables you to create, update, and delete resources in your Azure account. Anytime you do anything with your Azure resources, ARM is involved.**
