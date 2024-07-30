@@ -106,6 +106,11 @@ Currently, Azure Arc allows you to manage the following resource types hosted ou
 * SQL Server
 * Virtual machines (preview)
 
-
-
 **Azure Resource Manager (ARM) is the deployment and management service for Azure. It provides a management layer that enables you to create, update, and delete resources in your Azure account. Anytime you do anything with your Azure resources, ARM is involved.**
+
+![image](https://github.com/user-attachments/assets/6e13848e-1492-4acc-9cc6-c2a2d3df51c6)
+
+![image](https://github.com/user-attachments/assets/89396991-5883-4d49-8f8f-be8d97761712)
+
+![image](https://github.com/user-attachments/assets/f3808120-0164-4def-8d6b-bb1b52eeb3ba)
+
